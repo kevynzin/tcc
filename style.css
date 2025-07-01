@@ -9,6 +9,12 @@ nav{
 nav a{
     color: white;
     text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+nav a:hover{
+    background-color: black;
 }
 nav img{
     height: 30px;
@@ -31,7 +37,14 @@ nav img{
     flex-direction: column;
     color: white;
     text-decoration: none;
+    width: 180px;
+    transition: 0.3s;
+   
 }
+.card:hover{
+    scale: 1.5;
+}
+
 .card img{
     height: 250px;
 }

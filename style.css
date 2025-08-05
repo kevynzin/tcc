@@ -20,9 +20,8 @@ nav img{
     height: 30px;
 }
 .login{
-    background-color: black;
-    height: 30px;
-    width: 30px;
+    
+  font-size: 25px;
 }
 .cards{
     
@@ -62,4 +61,18 @@ h1, h2{
 }
 .destaque{
     width: 100%;
+}
+
+.pesquisar{
+    border-radius: 15px;
+    background-color: white;
+    color: blue;
+    padding: 5px;
+    
+}
+
+.pesquisar input{
+    background-color: transparent;
+    border:transparent;
+    outline: none;
 }
